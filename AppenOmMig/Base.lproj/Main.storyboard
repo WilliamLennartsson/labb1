@@ -376,9 +376,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOA-Jq-yRz">
                                 <rect key="frame" x="190" y="572" width="169" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save Settings"/>
+                                <state key="normal" title="Save Settings">
+                                    <color key="titleColor" red="0.18169365193904294" green="0.22362079138729613" blue="0.25475631476683935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="SaveSettings:" destination="hvd-Jt-5Fq" eventType="touchUpInside" id="nDY-86-dlB"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="047-cN-jcy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -424,5 +427,8 @@
         <image name="WillPic.jpg" width="960" height="720"/>
         <image name="vattenfall" width="2048" height="1152"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="047-cN-jcy"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.97080080661760604" green="1" blue="0.96908296373490554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

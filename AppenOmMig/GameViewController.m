@@ -38,6 +38,7 @@ int highScore = 24;
     [super loadViewIfNeeded];
     SettingsViewController *controller = [[SettingsViewController alloc]init];
     self.GameViewController.backgroundColor = [controller getStoredColor];
+    _GuessSlider.value = 50.0f;
 }
 
 -(void) initialize {
