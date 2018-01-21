@@ -7,16 +7,26 @@
 //
 
 #import "ViewController.h"
+#import "SettingsViewController.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) IBOutlet UIView *MainViewController;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self updateColor];
+}
+
+-(void)loadViewIfNeeded{
+    [super loadViewIfNeeded];
+    [self updateColor];
+}
+-(void)updateColor{
+    SettingsViewController *controller = [[SettingsViewController alloc]init];
+    self.MainViewController.backgroundColor = [controller getStoredColor];
 }
 
 
@@ -24,6 +34,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

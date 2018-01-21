@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72D270F4200E5C5E005845D6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D270F3200E5C5E005845D6 /* AboutViewController.m */; };
+		72D270F6200E6CE2005845D6 /* ImgUnderConstruction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72D270F5200E6CE2005845D6 /* ImgUnderConstruction.jpg */; };
+		72D270F9200E7832005845D6 /* FutureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D270F8200E7832005845D6 /* FutureViewController.m */; };
+		72D27122200F5FDA005845D6 /* WillPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72D27121200F5FD9005845D6 /* WillPic.jpg */; };
+		72D2714D200FAA4E005845D6 /* FutureWillModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D2714C200FAA4E005845D6 /* FutureWillModel.m */; };
 		72E9F874200B804A0032F36B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F873200B804A0032F36B /* AppDelegate.m */; };
 		72E9F877200B804A0032F36B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F876200B804A0032F36B /* ViewController.m */; };
 		72E9F87A200B804A0032F36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E9F878200B804A0032F36B /* Main.storyboard */; };
 		72E9F87C200B804A0032F36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E9F87B200B804A0032F36B /* Assets.xcassets */; };
 		72E9F87F200B804A0032F36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E9F87D200B804A0032F36B /* LaunchScreen.storyboard */; };
 		72E9F882200B804A0032F36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F881200B804A0032F36B /* main.m */; };
+		72E9F88A200BBC220032F36B /* GuessingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F889200BBC220032F36B /* GuessingGame.m */; };
+		72E9F88E200BF0830032F36B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F88C200BF0830032F36B /* GameViewController.m */; };
+		72E9F88F200BF0830032F36B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E9F88D200BF0830032F36B /* GameViewController.xib */; };
+		72E9F892200CCA100032F36B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F891200CCA100032F36B /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72D270F2200E5C5E005845D6 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		72D270F3200E5C5E005845D6 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		72D270F5200E6CE2005845D6 /* ImgUnderConstruction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImgUnderConstruction.jpg; sourceTree = "<group>"; };
+		72D270F7200E7832005845D6 /* FutureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutureViewController.h; sourceTree = "<group>"; };
+		72D270F8200E7832005845D6 /* FutureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureViewController.m; sourceTree = "<group>"; };
+		72D27121200F5FD9005845D6 /* WillPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WillPic.jpg; sourceTree = "<group>"; };
+		72D2714B200FAA4E005845D6 /* FutureWillModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutureWillModel.h; sourceTree = "<group>"; };
+		72D2714C200FAA4E005845D6 /* FutureWillModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureWillModel.m; sourceTree = "<group>"; };
 		72E9F86F200B804A0032F36B /* AppenOmMig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppenOmMig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E9F872200B804A0032F36B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72E9F873200B804A0032F36B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,13 @@
 		72E9F87E200B804A0032F36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72E9F880200B804A0032F36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72E9F881200B804A0032F36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72E9F888200BBC220032F36B /* GuessingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessingGame.h; sourceTree = "<group>"; };
+		72E9F889200BBC220032F36B /* GuessingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingGame.m; sourceTree = "<group>"; };
+		72E9F88B200BF0830032F36B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		72E9F88C200BF0830032F36B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		72E9F88D200BF0830032F36B /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		72E9F890200CCA100032F36B /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		72E9F891200CCA100032F36B /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +87,22 @@
 				72E9F875200B804A0032F36B /* ViewController.h */,
 				72E9F876200B804A0032F36B /* ViewController.m */,
 				72E9F878200B804A0032F36B /* Main.storyboard */,
+				72D2714B200FAA4E005845D6 /* FutureWillModel.h */,
+				72D2714C200FAA4E005845D6 /* FutureWillModel.m */,
+				72D270F7200E7832005845D6 /* FutureViewController.h */,
+				72D270F8200E7832005845D6 /* FutureViewController.m */,
+				72D270F2200E5C5E005845D6 /* AboutViewController.h */,
+				72D270F3200E5C5E005845D6 /* AboutViewController.m */,
+				72E9F88B200BF0830032F36B /* GameViewController.h */,
+				72E9F88C200BF0830032F36B /* GameViewController.m */,
+				72E9F890200CCA100032F36B /* SettingsViewController.h */,
+				72E9F891200CCA100032F36B /* SettingsViewController.m */,
+				72E9F88D200BF0830032F36B /* GameViewController.xib */,
+				72E9F888200BBC220032F36B /* GuessingGame.h */,
+				72E9F889200BBC220032F36B /* GuessingGame.m */,
 				72E9F87B200B804A0032F36B /* Assets.xcassets */,
+				72D27121200F5FD9005845D6 /* WillPic.jpg */,
+				72D270F5200E6CE2005845D6 /* ImgUnderConstruction.jpg */,
 				72E9F87D200B804A0032F36B /* LaunchScreen.storyboard */,
 				72E9F880200B804A0032F36B /* Info.plist */,
 				72E9F881200B804A0032F36B /* main.m */,
@@ -129,9 +168,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E9F88F200BF0830032F36B /* GameViewController.xib in Resources */,
 				72E9F87F200B804A0032F36B /* LaunchScreen.storyboard in Resources */,
 				72E9F87C200B804A0032F36B /* Assets.xcassets in Resources */,
 				72E9F87A200B804A0032F36B /* Main.storyboard in Resources */,
+				72D27122200F5FDA005845D6 /* WillPic.jpg in Resources */,
+				72D270F6200E6CE2005845D6 /* ImgUnderConstruction.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E9F88E200BF0830032F36B /* GameViewController.m in Sources */,
+				72E9F88A200BBC220032F36B /* GuessingGame.m in Sources */,
 				72E9F877200B804A0032F36B /* ViewController.m in Sources */,
+				72D270F9200E7832005845D6 /* FutureViewController.m in Sources */,
+				72D270F4200E5C5E005845D6 /* AboutViewController.m in Sources */,
+				72E9F892200CCA100032F36B /* SettingsViewController.m in Sources */,
 				72E9F882200B804A0032F36B /* main.m in Sources */,
+				72D2714D200FAA4E005845D6 /* FutureWillModel.m in Sources */,
 				72E9F874200B804A0032F36B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2XA4MCD45;
 				INFOPLIST_FILE = AppenOmMig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WILE.AppenOmMig;
@@ -292,6 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2XA4MCD45;
 				INFOPLIST_FILE = AppenOmMig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WILE.AppenOmMig;
